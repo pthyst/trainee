@@ -1,0 +1,62 @@
+.student_list{
+    position: absolute;
+    top: 10rem;
+    right: 0px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0,0,0.1);
+    border-radius: 2rem;
+}
+.list_header,.list_footer{
+    height: 3rem;
+    background: #000
+}
+.list_header{ 
+    border-radius: 2rem 2rem 0rem 0rem ;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.75rem;
+}
+.list_footer{ border-radius: 0rem 0rem 2rem 2rem }
+
+.student_list ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 30rem;
+    width: 20rem;
+    overflow: auto;
+}
+.student{
+    display: block;
+    height: 5rem;
+    background: #fff;
+    padding: 0.25rem 0.5rem 0.25rem 1rem;
+    border-bottom: 2px solid #fafafa;
+    transition: all 0.25s ease-in-out;
+}
+.student:hover{
+    background-color: #F5F5F5;
+}
+.student img{
+    float: left;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%
+}
+.student__info
+{
+    float: left;
+    height: 4.5rem;
+}
+
+.student__info__name,.student__info__points,.student__info__course{
+    margin: 0rem 0rem 0rem 1rem;
+    padding-left: 0rem;
+}
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent;
+    }
+   
+    ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+    }

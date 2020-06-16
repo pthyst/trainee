@@ -19,7 +19,9 @@
 .box ul li{
     margin: 0.25rem;
     padding: 1rem;
-    background: #000;
+    background-image: url('../../../assets/images/black.png');
+    background-size: cover;
+    background-position: center center;
     opacity: 0.75;
     text-align: center;
     border-radius: 0.1rem;
